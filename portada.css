@@ -1,0 +1,104 @@
+body {
+	background-color: lightgreen;
+	color: blue;
+	font-family: 'Estonia', cursive;
+
+}
+
+
+h1 {
+	text-align: left;
+	font-family: 'Praise', cursive;
+	/*border:2px solid blue;*/ 
+	padding:15px;}
+	
+h2{text-align: left;
+	font-family: 'Praise', cursive;
+	  color: black;
+	 }
+
+
+	p {
+		margin-left: 80px;
+		font-size: 14pt;
+		color: red;}
+
+		a:link {
+			color: blue; }
+
+			a:visited {
+				color: purple; }
+
+#portada h1{
+   /*background-color: white;*/
+	color: black;
+	text-align: center;
+	font-family: 'Libre Baskerville', serif;
+}
+
+span{
+	color: pink;
+	 text-shadow: 2px 2px 5px purple ;
+	 text-decoration: underline
+
+}
+
+
+.marron {
+	color:brown;
+ background-color: pink; }
+
+
+
+p.smallcaps { 
+	font-variant: -caps; }
+
+
+table, th, td {
+	padding:30px;
+  border: 1px solid red;
+  border-collapse: collapse;
+  border-spacing:30px;
+}
+
+tr:nth-child(even){
+background-color:pink;
+}
+
+.flotar { float: right; padding: 5%}
+
+/*esto es de la barra de nevegación */
+#menu ul{  
+    text-align: center;
+	 background-color: darkblue;
+	 list-style-type: none;
+    margin: 10;
+    padding: 20px 100px 20px 100px;
+}
+
+#menu li {
+
+	 text-align: center;
+    margin: 0 10px 0 0;
+    display: inline;}
+
+#menu a{
+
+	 padding: 10px 100px 10px 05px;
+	 color:white;
+	 
+
+	}
+#irocho img{
+	float:right;
+  
+}
+#irocho {
+	text-align: right;
+
+}
+
+
+svg{
+	float: right;
+}
